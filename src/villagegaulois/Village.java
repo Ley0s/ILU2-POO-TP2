@@ -70,8 +70,8 @@ public class Village {
 	 * @param vendeur   : un gaulois habitant le village
 	 * @param produit   : nom du produit Ã  vendre
 	 * @param nbProduit : nombre de produit Ã  vendre
-	 * @return le numÃ©ro de l'Ã©tal oÃ¹ c'est installÃ© le vendeur ou -1 s'il n'en
-	 *         a pas trouvÃ©
+	 * @return le numéro de l'étal oÃ¹ c'est installé le vendeur ou -1 s'il n'en
+	 *         a pas trouvé
 	 */
 	public int installerVendeur(Gaulois vendeur, String produit,
 			int nbProduit) {
@@ -133,8 +133,8 @@ public class Village {
 
 		/**
 		 * 
-		 * @return le numÃ©ro de l'Ã©tal oÃ¹ c'est installÃ© le vendeur ou -1 s'il
-		 *         n'en a pas trouvÃ©
+		 * @return le numéro de l'étal oÃ¹ c'est installé le vendeur ou -1 s'il
+		 *         n'en a pas trouvé
 		 */
 		private int trouverEtalLibre() {
 			int indiceEtalLibre = -1;
@@ -201,7 +201,7 @@ public class Village {
 		/**
 		 * 
 		 * @return renvoie un tableau contenant les informations de tous les
-		 *         Ã©tals du marchÃ©. Chaque Ã©tal est dÃ©crit sur 3 cases du
+		 *         étals du marché. Chaque étal est décrit sur 3 cases du
 		 *         tableau successives : le nom du vendeur, le nombre de produit
 		 *         qu'il lui reste Ã  vendre, le type de produit Ã  vendre
 		 */
